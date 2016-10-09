@@ -1,10 +1,15 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 # bcrypt
 gem 'bcrypt',               '3.1.7'
+#実際にありそうなユーザー名とメールアドレスを持つサンプルユーザーを自動的に作成する
+gem 'faker',                '1.4.2'
+#ページネーション
+gem 'will_paginate',           '3.1.3'
+gem 'bootstrap-will_paginate', '0.0.10'
+
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.3.18', '< 0.5'
 # bootstrap
